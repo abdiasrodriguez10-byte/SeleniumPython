@@ -20,5 +20,4 @@ jobs:
     - name: Install dependencies
       run: pip install -r src/requirements.txt
     - name: Test with pytest
-      run: |
-        pytest tests.py
+      run: pytest tests.py
